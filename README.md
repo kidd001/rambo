@@ -48,7 +48,7 @@ Unzip the package into the root of your project, ie:
 PNGCRUSH will make your files smaller. It is good. Ram will
 try to use this if it finds it installed.
 
-(PngCrush)[http://www.hmug.org/pub/MacOS_X/BSD/Applications/Graphics/pngcrush/]
+[PngCrush](http://www.hmug.org/pub/MacOS_X/BSD/Applications/Graphics/pngcrush/)
 
 
 ## Set up your images
