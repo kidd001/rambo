@@ -32,14 +32,10 @@ Edit Line 26 of `tools/config.sh` to support your OS. Linux and Mac OSX order fi
 
 Ram needs the [Python Image Library](https://developers.google.com/appengine/docs/python/images/installingPIL). 
 
-If you're on linux, run:
----
-
-`sudo apt-get install python-imaging`
+If you're on linux, run: `sudo apt-get install python-imaging`
 
 
-To install PIL on Mac OS X 10.4 and higher:
----
+#### To install PIL on Mac OS X 10.4 and higher:
 
 * Download the PIL .dmg file. For example, you can download the PIL 1.1.6 .dmg file from http://pythonmac.org/packages/py25-fat/index.html.
 * Double-click on the installer to start the installation process.
