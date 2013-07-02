@@ -12,11 +12,11 @@ Includes [pypacker](http://jwezorek.com/2013/01/sprite-packing-in-python/), writ
 
 ## Installation
 Unzip the package into the root of your project, ie:
-
+```
 	project/
 		tools/
 		www/
-	
+```	
 	Run: chmod 777 tools/*
 	
 	Edit the config in `tools/config.sh` to look like your project
@@ -54,7 +54,7 @@ try to use this if it finds it installed.
 ## Set up your images
 
 You'll need to drop your sprite images in a sub-folder for each pixel aspect ratio."
-
+```
 Eg, sprites/
 	    foo/           (the 1x has no prefix. Your sprite will be called this.)
 	    foo-0.75x/     (smaller than 1x for poxy androids. Use the same base-name [foo] for all these)
@@ -62,7 +62,7 @@ Eg, sprites/
 	    foo-2x/        (true retina)
 	    bar/
 	    bar-2x/
-
+```
 ## Usage
 Call `tools/sprites.sh` from your project root.
 
