@@ -21,38 +21,36 @@ Unzip the package into the root of your project, ie:
 		
 ```	
 
-	Run: chmod 777 tools/*
+Run `chmod 777 tools/*`
 	
-	Edit the config in `tools/config.sh` to look like your project
+Edit the config in `tools/config.sh` to look like your project
 
-	Edit Line 26 of `tools/config.sh` to support your OS. Linux and Mac OSX order files differently.
+Edit Line 26 of `tools/config.sh` to support your OS. Linux and Mac OSX order files differently.
 
 
 ## Install PIL
 
-	Ram needs the [Python Image Library](https://developers.google.com/appengine/docs/python/images/installingPIL). 
+Ram needs the [Python Image Library](https://developers.google.com/appengine/docs/python/images/installingPIL). 
 
-	If you're on linux, run:
-	---
+If you're on linux, run:
+---
 
-	`sudo apt-get install python-imaging`
+`sudo apt-get install python-imaging`
 
 
-	To install PIL on Mac OS X 10.4 and higher:
-	---
+To install PIL on Mac OS X 10.4 and higher:
+---
 
-	* Download the PIL .dmg file. For example, you can download the PIL 1.1.6 .dmg file from http://pythonmac.org/packages/py25-fat/index.html.
-	* Double-click on the installer to start the installation process.
-	* Choose the correct directory.
-	* Finish the installation.
+* Download the PIL .dmg file. For example, you can download the PIL 1.1.6 .dmg file from http://pythonmac.org/packages/py25-fat/index.html.
+* Double-click on the installer to start the installation process.
+* Choose the correct directory.
+* Finish the installation.
 
 
 ## Install PNGCrush
 
-PNGCRUSH will make your files smaller. It is good. Ram will
+[PngCrush](http://www.hmug.org/pub/MacOS_X/BSD/Applications/Graphics/pngcrush/) will make your files smaller. It is good. Ram will
 try to use this if it finds it installed.
-
-[PngCrush](http://www.hmug.org/pub/MacOS_X/BSD/Applications/Graphics/pngcrush/)
 
 
 ## Set up your images
