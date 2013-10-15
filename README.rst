@@ -36,7 +36,7 @@ Then run rambo from the command line:
 
 .. code::
 
-    rambo --input images/sprites --output images --css css --sass sass/sprites --file _sprites.scss --testpage_dir site --testpage_name test_page.html
+    rambo --input "images/sprites" --output "images" --csspath "css" --cssfile "_sprites.scss" --sasspath "sass/sprites" --testpage_dir "site" --testpage_name "test_page.html"
 
 Arguments
 ~~~~~~~~~
