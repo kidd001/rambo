@@ -16,27 +16,33 @@ Set up your images
 ------------------
 You'll need to drop your sprite images in a sub-folder for each pixel aspect ratio.
 
-.. code::
+::
+
   Eg, sprites/
-  	    foo/           (the 1x has no prefix. Your sprite will be called this.)
-  	    foo-0.75x/     (smaller than 1x for poxy androids. Use the same base-name [foo] for all these)
-  	    foo-1.5x/      (android pseudo-retina)
-  	    foo-2x/        (true retina)
-  	    bar/
-  	    bar-2x/
+    foo/           (the 1x has no prefix. Your sprite will be called this.)
+    foo-0.75x/     (smaller than 1x for poxy androids. Use the same base-name `foo`)
+    foo-1.5x/      (android pseudo-retina)
+    foo-2x/        (true retina)
+    bar/
+    bar-2x/
 
 Usage
 -----
 .. code::
-    `pip install rambo`
+
+    pip install rambo
+
+Then run rambo from the command line:
 
 .. code::
-    `rambo --input images/sprites --output images --css css --sass sass/sprites --file _sprites.scss --testpage_dir site --testpage_name test_page.html`
+
+    rambo --input images/sprites --output images --css css --sass sass/sprites --file _sprites.scss --testpage_dir site --testpage_name test_page.html
 
 Arguments
 ~~~~~~~~~
 
 .. code::
+
   -h, --help           show this help message and exit
   --input INPUT        Input directory, images/sprites
   --output OUTPUT      Output directory, images/
