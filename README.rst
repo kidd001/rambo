@@ -28,10 +28,10 @@ You'll need to drop your sprite images in a sub-folder for each pixel aspect rat
 Usage
 -----
 .. code::
-  `pip install rambo`
+    `pip install rambo`
 
 .. code::
-  `rambo --input images/sprites --output images --css css --sass sass/sprites --file _sprites.scss --testpage_dir site --testpage_name test_page.html`
+    `rambo --input images/sprites --output images --css css --sass sass/sprites --file _sprites.scss --testpage_dir site --testpage_name test_page.html`
 
 Arguments
 ~~~~~~~~~
