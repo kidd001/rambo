@@ -1,4 +1,4 @@
-Ram
+Rambo
 =======
 A command line sprite tool and friend of the Yak.
 
