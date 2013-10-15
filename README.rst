@@ -2,7 +2,9 @@ Rambo
 =======
 A command line sprite tool for smashing your images into sprites.
 
-Includes [pypacker](http://jwezorek.com/2013/01/sprite-packing-in-python/), written by Joe Wezorek.
+Includes `pypacker <http://jwezorek.com/2013/01/sprite-packing-in-python/>`_., written by Joe Wezorek.
+
+
 
 Features
 --------
