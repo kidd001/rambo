@@ -1,3 +1,0 @@
-import rambo
-
-rambo.main()

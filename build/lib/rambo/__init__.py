@@ -1,1 +1,0 @@
-from rambo import main
