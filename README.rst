@@ -19,12 +19,12 @@ You'll need to drop your sprite images in a sub-folder for each pixel aspect rat
 ::
 
   Eg, sprites/
-    foo/           (the 1x has no prefix. Your sprite will be called this.)
-    foo-0.75x/     (smaller than 1x for poxy androids. Use the same base-name `foo`)
-    foo-1.5x/      (android pseudo-retina)
-    foo-2x/        (true retina)
-    bar/
-    bar-2x/
+        foo/           (the 1x has no prefix. Your sprite will be called this.)
+        foo-0.75x/     (smaller than 1x for poxy androids. Use the same base-name `foo`)
+        foo-1.5x/      (android pseudo-retina)
+        foo-2x/        (true retina)
+        bar/
+        bar-2x/
 
 Usage
 -----
