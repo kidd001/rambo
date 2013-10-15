@@ -43,11 +43,11 @@ Arguments
 
 .. code::
 
-  -h, --help           show this help message and exit
-  --input INPUT        Input directory, images/sprites
-  --output OUTPUT      Output directory, images/
-  --cssfile CSSFILE    CSS filename, _sprites.scss
-  --csspath CSSPATH    CSS output path, css
-  --sasspath SASSPATH  SaSS output path,  sass/sprites
-  --test_dir TEST_DIR  Cheat sheet dir, site/
-  --testpage TESTPAGE  Cheat sheet, site/cheat_sheet.html
+  -h, --help                show this help message and exit
+  --input INPUT             Input directory, images/sprites
+  --output OUTPUT           Output directory, images/
+  --cssfile CSSFILE         CSS filename, _sprites.scss
+  --csspath CSSPATH         CSS output path, css
+  --sasspath SASSPATH       SaSS output path,  sass/sprites
+  --testpage_dir TEST_DIR   Cheat sheet dir, site/
+  --testpage_name TESTPAGE  Cheat sheet, cheat_sheet.html
