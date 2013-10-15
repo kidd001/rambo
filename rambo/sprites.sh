@@ -290,7 +290,7 @@ while [ "$1" != "" ]; do
         -f | --file )           shift
                                 sprite_sass_file="$1"
                                 ;;
-        -t | --testpage )       shift 
+        -t | --testpage_dir )   shift 
                                 sprite_test_page_dir="$1"
                                 ;;
         -n | --testpage_name )  shift

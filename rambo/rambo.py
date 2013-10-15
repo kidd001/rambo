@@ -1,4 +1,3 @@
-import pypacker
 import subprocess
 import os
 import sys
@@ -38,12 +37,12 @@ def parse_args(args=None):
                             help='\033[90mSaSS output path,  \033[34msass/sprites\033[0m',
                             default=config['sass_output_dir']
                             )
-        parser.add_argument('--test_dir',
+        parser.add_argument('--testpage_dir',
                             help='\033[90mCheat sheet dir, \033[34msite/\033[0m',
                             default=config['test_page_dir']
                             )
-        parser.add_argument('--testpage',
-                            help='\033[90mCheat sheet, \033[34msite/cheat_sheet.html\033[0m',
+        parser.add_argument('--testpage_name',
+                            help='\033[90mCheat sheet, \033[34mcheat_sheet.html\033[0m',
                             default=config['test_page']
                             )
         return parser.parse_args(args)
@@ -57,7 +56,7 @@ def main(args=None):
         sys.exit(1)
 
     path = os.path.dirname(os.path.realpath(__file__))
-    subprocess.call([path + '/sprites.sh', "--input", args.input, "--output", args.output, "--css", args.csspath, "--sass", args.sasspath, "--file", args.cssfile, "--testpage", args.test_dir, "--testpage_name", args.testpage])
+    subprocess.call([path + '/sprites.sh', "--input", args.input, "--output", args.output, "--css", args.csspath, "--sass", args.sasspath, "--file", args.cssfile, "--testpage_dir", args.testpage_dir, "--testpage_name", args.testpage_name])
 
 
 # Boot it!
